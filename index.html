@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <!--Fin de Google Fonts-->
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+     <!--Fin Bootstrap-->
+    <title>Brawl Quote Generator</title>
+</head>
+<body>
+    <!--Scripts-->
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="quote.js"></script>
+    <!--Fin Scripts-->
+
+    <br><br><br><br><br>
+    <h1 class="text-white text-center" id="title">Brawl Stars Quote Generator</h1>
+    <br><br>
+    <div class="text-center fluid-container" id="quote-box">
+        <div id="div-grid">
+        <img id="brawler" src="https://www.chillbs.com/core/uploads/2020/10/Dynamike_2.png" alt="">
+        <p class="text-white" id="text">I got a short fuse</p>
+        <cite class="text-white" id="author">-Dynamike</cite>
+    </div>
+        <div id="button-container">
+            <button onclick="changeQuote();" class="btn btn-success bi bi-arrow-repeat" id="new-quote"> New Quote</button>
+    </div>
+    </div>
+    <br>
+    <p class="text-center text-white">by Keitan Padilla Holtschmit</p>
+    
+</body>
+</html>
